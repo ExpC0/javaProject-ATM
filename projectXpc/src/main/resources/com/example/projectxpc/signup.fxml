@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="772.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectxpc.signupctrl">
+    <children>
+        <AnchorPane prefHeight="772.0" prefWidth="800.0" style="-fx-background-color: null;">
+            <children>
+                <ImageView fitHeight="772.0" fitWidth="800.0" pickOnBounds="true" preserveRatio="true">
+                    <image>
+                        <Image url="@img/pexels-daniel-dan-7709937.jpg" />
+                    </image>
+                </ImageView>
+            <ButtonBar layoutX="123.0" layoutY="591.0" prefHeight="40.0" prefWidth="200.0" />
+            <Button fx:id="loginSignup" layoutX="352.0" layoutY="692.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="96.0" style="-fx-background-color: #00F7FF;" text="Login" textFill="#030000">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="fullnameSignup" layoutX="192.0" layoutY="113.0" prefHeight="40.0" prefWidth="388.0" promptText="Full Name">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="accountIdSignup" layoutX="192.0" layoutY="191.0" prefHeight="40.0" prefWidth="388.0" promptText="Account ID">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="addressSignup" layoutX="192.0" layoutY="422.0" prefHeight="40.0" prefWidth="388.0" promptText="Address">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></TextField>
+            <TextField fx:id="emailSignup" layoutX="192.0" layoutY="488.0" prefHeight="40.0" prefWidth="388.0" promptText="E-mail">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </TextField>
+            <Button fx:id="registerSignup" layoutX="308.0" layoutY="637.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="184.0" style="-fx-background-color: #00F7FF;" text="Register" textFill="#030000">
+               <font>
+                  <Font name="System Bold Italic" size="15.0" />
+               </font>
+            </Button>
+            <TextField fx:id="contactSignup" layoutX="192.0" layoutY="560.0" prefHeight="40.0" prefWidth="388.0" promptText="Contact Number">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="passwordSignup" layoutX="192.0" layoutY="268.0" prefHeight="40.0" prefWidth="388.0" promptText="Password">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font></PasswordField>
+            <PasswordField fx:id="retypePasswordSignup" layoutX="192.0" layoutY="346.0" prefHeight="40.0" prefWidth="388.0" promptText="Re-type Password">
+               <font>
+                  <Font name="System Bold Italic" size="13.0" />
+               </font>
+            </PasswordField>
+            <Label layoutX="240.0" layoutY="38.0" prefHeight="40.0" prefWidth="269.0" text="Secure Your Money!!!" textFill="#0de80d">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <Button fx:id="closeButton" layoutX="768.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="16.0" style="-fx-background-color: #27FF00;" text="X">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+
+
+            </children></AnchorPane>
+    </children>
+</HBox>

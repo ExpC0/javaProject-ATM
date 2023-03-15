@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="781.0" prefWidth="980.0" style="-fx-background-color: null;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.projectxpc.recentTransactionCtrl">
+   <children>
+      <ImageView fitHeight="781.0" fitWidth="980.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/4882066.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="262.0" layoutY="68.0" prefHeight="47.0" prefWidth="461.0" text=" Recent Transactions in your account" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="19.0" />
+         </font>
+      </Label>
+      <Label fx:id="left1" layoutX="137.0" layoutY="141.0" prefHeight="39.0" prefWidth="509.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left2" layoutX="137.0" layoutY="191.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left3" layoutX="137.0" layoutY="241.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left4" layoutX="137.0" layoutY="291.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left5" layoutX="137.0" layoutY="341.0" prefHeight="39.0" prefWidth="509.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left6" layoutX="137.0" layoutY="391.0" prefHeight="39.0" prefWidth="509.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left7" layoutX="137.0" layoutY="441.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left8" layoutX="137.0" layoutY="491.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left9" layoutX="137.0" layoutY="541.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="left10" layoutX="137.0" layoutY="591.0" prefHeight="39.0" prefWidth="516.0" text=" Recent Transactions in yor account" textFill="#03ff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right2" layoutX="672.0" layoutY="191.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right3" layoutX="672.0" layoutY="241.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right4" layoutX="672.0" layoutY="291.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right5" layoutX="672.0" layoutY="341.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right6" layoutX="672.0" layoutY="391.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right7" layoutX="672.0" layoutY="441.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right8" layoutX="672.0" layoutY="491.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right9" layoutX="672.0" layoutY="541.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right10" layoutX="672.0" layoutY="591.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Label fx:id="right1" layoutX="672.0" layoutY="141.0" prefHeight="39.0" prefWidth="265.0" text="Date and time" textFill="#daff00">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Label>
+      <Button fx:id="backFromRecentTransaction" layoutX="793.0" layoutY="661.0" mnemonicParsing="false" prefHeight="23.0" prefWidth="93.0" style="-fx-background-color: #03F7FF;" text="Back">
+         <font>
+            <Font name="System Bold Italic" size="17.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="94.0" fitWidth="163.0" layoutX="723.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/security-low-resolution-logo-black-on-transparent-background.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="closeButton" layoutX="948.0" mnemonicParsing="false" prefHeight="24.0" prefWidth="16.0" style="-fx-background-color: #27FF00;" text="X">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
