@@ -1,4 +1,4 @@
-# ATM System  
+# ATM Management System  
 A Simple Java Desktop Application  
 
 This project simulates an Automated Teller Machine (ATM) system, providing essential banking functionalities such as deposits, withdrawals, balance inquiries, and money transfers in a user-friendly desktop environment.  
@@ -47,6 +47,6 @@ This project simulates an Automated Teller Machine (ATM) system, providing essen
 
 ## **See the presentation**  
 
-- [click here](https://www.oracle.com/java/technologies/javase-downloads.html).  
+- [click here](https://github.com/ExpC0/javaProject-ATM/blob/main/project-presentation-cse2200.pdf).  
 
 
