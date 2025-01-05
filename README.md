@@ -29,7 +29,7 @@ This project simulates an Automated Teller Machine (ATM) system, providing essen
 
 ## **Technologies Used**  
 - **Programming Language**: Java  
-- **GUI Framework**: Swing  
+- **GUI Framework**: JavaFX  
 - **Database**: SQLite  
 
 ---
