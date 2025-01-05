@@ -45,14 +45,8 @@ This project simulates an Automated Teller Machine (ATM) system, providing essen
 
 ---
 
-## **Setup Instructions**  
+## **See the presentation**  
 
-### **Prerequisites**  
-- Install [Java JDK](https://www.oracle.com/java/technologies/javase-downloads.html) (version 8 or above).  
-- Install SQLite or any compatible SQL database management tool.  
+- [click here](https://www.oracle.com/java/technologies/javase-downloads.html).  
 
-### **Steps to Run**  
-1. Clone this repository:  
-   ```bash
-   git clone https://github.com/yourusername/ATM-System.git
-   cd ATM-System
+
